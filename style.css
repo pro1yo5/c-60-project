@@ -1,0 +1,50 @@
+body{
+    text-align:center; 
+}
+#ninja{
+ background: linear-gradient(red,yellow);
+}
+#head{
+    font-size:20px;
+}
+#book{
+    font-size:30px;
+}
+#yes{
+    
+    z-index: 8px;
+}
+#sup{
+   
+    z-index:  10px;
+}
+.menu{
+    list-style: none;
+    cursor: pointer;
+    z-index: 10px;
+    position: fixed;
+    
+}
+#image1{
+    border-radius: 50%;
+    width:100px;
+}
+    .links:hover{
+     background-color:dodgerblue;
+    }
+html{
+    scroll-behavior: smooth;
+}
+#p{
+width: 200px;
+    height: 200px;
+     transform: scale(1.1);
+}
+   #j{
+width: 200px;
+    height: 200px;
+      transform: scale(1.1);  
+} 
+img:hover{
+ transform: scale(1.1);
+}   
